@@ -1,0 +1,40 @@
+.someClass {
+
+}
+.button {
+    margin: 10px;
+    width: 60px;
+
+    background: #61dafb;
+    color: #99ff99;
+    outline: none;
+}
+
+.button:focus {
+    outline: white solid 3px;
+}
+
+.button:active {
+    background: green;
+}
+
+.affair {
+    display:flex
+}
+
+.item {
+    margin: 10px;
+    width: 100px
+}
+
+.high {
+    color: red;
+}
+
+.middle {
+    color: orange;
+}
+
+.low {
+    color: yellow;
+}

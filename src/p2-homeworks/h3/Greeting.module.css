@@ -1,0 +1,22 @@
+
+.input {
+    background-color: pink;
+    border: hotpink solid 2px;
+}
+.input:focus {
+    background-color: hotpink;
+}
+.errorInput {
+    background-color: red;
+}
+
+.greeting {
+    margin-left: 10px;
+}
+
+.button {
+    background-color: yellow;
+}
+
+.someClass {
+}
