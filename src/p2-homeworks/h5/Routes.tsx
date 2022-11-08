@@ -1,10 +1,11 @@
 import React from 'react'
-
+// // import {Switch} from "react-router-dom";
+//
 export const PATH = {
     PRE_JUNIOR: '/pre-junior',
     // add paths
 }
-
+//
 function Routes() {
     return (
         <div>

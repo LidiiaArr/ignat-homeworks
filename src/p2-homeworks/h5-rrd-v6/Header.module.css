@@ -1,0 +1,36 @@
+.link {
+    text-decoration: none;
+    /*убираем подчеркивание ссылки*/
+    color: #0861f6;
+    margin: 10px;
+}
+
+.link:hover {
+    /*text-decoration: none;*/
+    color: #c9f;
+}
+
+.activeLink {
+    text-decoration: none;
+    color: #10b9b9
+}
+
+.block {
+    width: 21px;
+    height:21px;
+    margin: 10px;
+    background: #99ff99;
+}
+
+.header {
+    display: flex;
+    width:280px;
+    transition-duration: 500ms;
+    transform: translate(-220px)
+    /*изначально спрятать*/
+}
+
+.header:hover {
+    transition-duration: 500ms;
+    transform: translate(0);
+}
